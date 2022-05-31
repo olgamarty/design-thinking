@@ -1,0 +1,36 @@
+.strategies {
+	padding: 30px 0;
+}
+
+.strategies__title {
+	margin: 0 0 14px;
+}
+
+.strategies__description {
+	margin: 0 0 24px;
+}
+
+.strategies__tags {
+	margin: 0 0 26px;
+}
+
+.strategies-wrapper {
+	padding: 5px 0;
+
+	>* {
+		margin-bottom: 30px;
+	}
+}
+
+// Strategy block
+.strategy__img {
+	min-width: 100%;
+}
+
+.strategy__content {
+	padding: 24px 34px 0 33px;
+}
+
+.strategy__title {
+	margin: 0 0 29px;
+}

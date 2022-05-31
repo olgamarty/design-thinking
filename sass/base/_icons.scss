@@ -1,0 +1,95 @@
+.ico {
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+.icon-square {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 19px;
+
+	&_indigo {
+		background-color: $color-indigo;
+	}
+
+	&_yellow {
+		background-color: $color-yellow;
+	}
+
+	&_red {
+		background-color: $color-red;
+	}
+
+	&_blue {
+		background-color: $color-blue;
+	}
+}
+
+.icon-round {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+
+	&_white {
+		background-color: $color-light;
+	}
+}
+
+.ico_play {
+	width: 19px;
+	height: 18px;
+}
+
+.play-path {
+	@extend %transition;
+}
+
+.play-svg:hover {
+	.play-path {
+		fill: $color-additional;
+	}
+
+	cursor: pointer;
+}
+
+.ico-arrow {
+	width: 12px;
+	height: 17px;
+	background-image: url(../../img/icons/icon-arrow.svg);
+}
+
+.ico-wave {
+	width: 18px;
+	height: 14px;
+	background-image: url(../../img/icons/wave.svg);
+}
+
+.ico-heart {
+	width: 17px;
+	height: 15px;
+	background-image: url(../../img/icons/hart.svg);
+}
+
+.ico-hourglass {
+	width: 15px;
+	height: 17px;
+	background-image: url(../../img/icons/hourglass.svg);
+}
+
+.ico_phone {
+	width: 13px;
+	height: 13px;
+	background-image: url(../../img/icons/phone.svg);
+}
+
+.ico_email {
+	width: 11px;
+	height: 8px;
+	background-image: url(../../img/icons/letter.svg);
+}

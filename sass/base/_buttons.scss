@@ -1,0 +1,58 @@
+.button {
+	padding: 11px 25px 13px;
+	@extend %font-primary;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	text-align: center;
+	background: none;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	transition: background-color 0.3s ease-in-out;
+
+	&_bordered {
+		background: transparent;
+		color: #173A56;
+		border: 1px solid $color-btn-border;
+
+		&:hover {
+			background: $color-btn-border;
+			border: 1px solid $color-btn-border;
+		}
+	}
+
+	&_colored {
+		background: $color-primary;
+		color: $color-light;
+		border: 1px solid $color-primary;
+
+		&:hover {
+			background: $color-additional;
+			border: 1px solid $color-additional;
+		}
+	}
+}
+
+.link-button {
+	display: inline-flex;
+	align-items: center;
+	@extend %font-add;
+	@include font(1.6rem, 2.4rem, 600);
+	color: $color-primary;
+	cursor: pointer;
+	@extend %transition;
+
+	&:hover {
+		color: $color-additional;
+	}
+
+	&:hover .play-path {
+		fill: $color-additional;
+	}
+}
+
+.link-button__text {
+	margin-left: 9px;
+}

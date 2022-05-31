@@ -1,0 +1,39 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	@extend %font-primary;
+	@include font(1.6rem, 2.6rem);
+	color: $color-text;
+}
+
+h1 {
+	@extend %font-add;
+	@include font(4.4rem, 5.4rem, 700);
+	@extend %heading-color;
+}
+
+h2 {
+	@include font(3.4rem, 4.6rem, 700);
+	@extend %heading-color;
+}
+
+h3 {
+	@include font(2.4rem, 3.4rem, 700);
+	@extend %heading-color;
+}
+
+h4 {
+	@include font(2.2rem, 3rem, 600);
+	@extend %heading-color;
+}
+
+h5 {
+	@include font(1.6rem, 2.6rem, 700);
+}
+
+.block-shadowed {
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}

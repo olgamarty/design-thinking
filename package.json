@@ -1,0 +1,23 @@
+{
+	"name": "design-thinking",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"style": "sass --watch sass/style.scss sass/style.css",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/olgamarty/design-thinking.git"
+	},
+	"author": "olgamarty",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/olgamarty/design-thinking/issues"
+	},
+	"homepage": "https://github.com/olgamarty/design-thinking#readme",
+	"dependencies": {
+		"normalize-scss": "^7.0.1"
+	}
+}
