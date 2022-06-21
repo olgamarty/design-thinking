@@ -18,7 +18,10 @@
 <body>
 	<header class="header">
 		<div class="container header__container">
-			<div class="header__logo">
+			<div class="header__logo-line">
+				<span class="hamburger header__hamburger">
+					<span class="hamburger__line"></span>
+				</span>
 				<a href="#" class="logo">
 					<object class="logo-object" type="image/svg+xml" data="img/logo.svg">
 						Your browser does not support SVG
@@ -49,11 +52,9 @@
 					<div class="promo__buttons">
 						<button class="button button_colored">Get started</button>
 						<a href="#" class="link-button">
-							<!-- <span class="ico ico_play"> -->
 							<object class="ico ico_play" type="image/svg+xml" data="img/icons/play.svg">
 								Your browser does not support SVG
 							</object>
-							<!-- </span> -->
 							<span class="link-button__text">Watch the Video</span>
 						</a>
 					</div>
@@ -63,8 +64,8 @@
 		</section>
 		<section class="tools">
 			<div class="container tools__container">
-				<h2 class="tools__title">We design tools to unveil your superpowers</h2>
-				<div class="layout-4-columns">
+				<h2 class="tools__title">We design tools to unveil<br>your superpowers</h2>
+				<div class="layout-4-columns tools__wrapper">
 					<div class="tool">
 						<div class="tool__icon">
 							<span class="icon-square icon-square_indigo">
@@ -125,7 +126,7 @@
 						<img class="strategy__img" src="./img/strategies/1.jpg" alt="Strategy">
 						<div class="strategy__content">
 							<h3 class="strategy__title">Increasing Prosperity With Positive Thinking</h3>
-							<div class="strategies__tags tags">
+							<div class="strategy__tags tags">
 								<span class="tag tag_colored">Art</span>
 								<span class="tag tag_colored">Design</span>
 							</div>
@@ -135,7 +136,7 @@
 						<img class="strategy__img" src="./img/strategies/2.jpg" alt="Strategy">
 						<div class="strategy__content">
 							<h3 class="strategy__title">Motivation Is The First Step To Success</h3>
-							<div class="strategies__tags tags">
+							<div class="strategy__tags tags">
 								<span class="tag tag_colored">Culture</span>
 							</div>
 						</div>
@@ -144,7 +145,7 @@
 						<img class="strategy__img" src="./img/strategies/3.jpg" alt="Strategy">
 						<div class="strategy__content">
 							<h3 class="strategy__title">Success Steps For Your Personal Or Business Life</h3>
-							<div class="strategies__tags tags">
+							<div class="strategy__tags tags">
 								<span class="tag tag_colored">Culture</span>
 								<span class="tag tag_colored">Design</span>
 								<span class="tag tag_colored">Art</span>
@@ -156,7 +157,7 @@
 						<div class="strategy__content">
 							<h3 class="strategy__title">Success Steps For Your Personal Or Business Life Plus Funny Image on
 								the Back</h3>
-							<div class="strategies__tags tags">
+							<div class="strategy__tags tags">
 								<span class="tag tag_colored">Culture</span>
 								<span class="tag tag_colored">Design</span>
 								<span class="tag tag_colored">Art</span>
@@ -167,7 +168,7 @@
 						<img class="strategy__img" src="./img/strategies/5.jpg" alt="Strategy">
 						<div class="strategy__content">
 							<h3 class="strategy__title">Increasing Prosperity With Positive Thinking</h3>
-							<div class="strategies__tags tags">
+							<div class="strategy__tags tags">
 								<span class="tag tag_colored">Design</span>
 							</div>
 						</div>
@@ -176,7 +177,7 @@
 						<img class="strategy__img" src="./img/strategies/6.jpg" alt="Strategy">
 						<div class="strategy__content">
 							<h3 class="strategy__title">Increasing Prosperity With Positive Thinking</h3>
-							<div class="strategies__tags tags">
+							<div class="strategy__tags tags">
 								<span class="tag tag_colored">Art</span>
 								<span class="tag tag_colored">Design</span>
 							</div>
@@ -186,7 +187,7 @@
 						<img class="strategy__img" src="./img/strategies/7.jpg" alt="Strategy">
 						<div class="strategy__content">
 							<h3 class="strategy__title">Motivation Is The First Step To Success</h3>
-							<div class="strategies__tags tags">
+							<div class="strategy__tags tags">
 								<span class="tag tag_colored">Culture</span>
 							</div>
 						</div>
@@ -195,7 +196,7 @@
 						<img class="strategy__img" src="./img/strategies/8.jpg" alt="Strategy">
 						<div class="strategy__content">
 							<h3 class="strategy__title">Success Steps For Your Personal Or Business Life</h3>
-							<div class="strategies__tags tags">
+							<div class="strategy__tags tags">
 								<span class="tag tag_colored">Culture</span>
 								<span class="tag tag_colored">Design</span>
 								<span class="tag tag_colored">Art</span>
@@ -252,11 +253,11 @@
 							them to leave without reading your awesome content or completing a conversion action (e.g., signing
 							up for your newsletter, making a purchase).</p>
 						<p class="contacts__contact">
-							<span class="icon-round icon-round_white"><span class="ico ico_phone"></span></span>
+							<span class="icon-round icon-round_white contacts__icon-round"><span class="ico ico_phone"></span></span>
 							<a class="contacts__contact-link" href="tel:+375223450099">+375 (22) 345-00-99</a>
 						</p>
 						<p class="contacts__contact">
-							<span class="icon-round icon-round_white"><span class="ico ico_email"></span></span>
+							<span class="icon-round icon-round_white contacts__icon-round"><span class="ico ico_email"></span></span>
 							<a class="contacts__contact-link" href="mailto:emailname@gmail.com">emailname@gmail.com</a>
 						</p>
 					</div>
@@ -277,12 +278,12 @@
 		</section>
 		<footer class="footer">
 			<div class="container footer-container">
-				<a href="#" class="logo">
+				<a href="#" class="logo footer__logo">
 					<object class="logo-object" type="image/svg+xml" data="img/logo.svg">
 						Your browser does not support SVG
 					</object>
 				</a>
-				<div class="layout-3-columns footer-navigation">
+				<div class="layout-3-columns footer__navigation">
 					<div class="footer-navigation__column">
 						<h4 class="footer-navigation__title">Quick Links</h4>
 						<ul class="footer-navigation__items">

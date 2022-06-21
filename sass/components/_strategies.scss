@@ -1,36 +1,147 @@
 .strategies {
 	padding: 30px 0;
+
+	@include media-tablet {
+		padding: 51px 0 0;
+	}
+
+	@include media-mobile {
+		padding: 63px 0 0;
+	}
 }
 
 .strategies__title {
 	margin: 0 0 14px;
+
+	@include media-tablet {
+		text-align: center;
+	}
+
+	@include media-mobile {
+		margin: 0 0 15px;
+	}
 }
 
 .strategies__description {
 	margin: 0 0 24px;
-}
 
-.strategies__tags {
-	margin: 0 0 26px;
-}
+	@include media-tablet {
+		text-align: center;
+	}
 
-.strategies-wrapper {
-	padding: 5px 0;
-
-	>* {
-		margin-bottom: 30px;
+	@include media-mobile {
+		margin: 0 0 22px;
 	}
 }
 
-// Strategy block
+.strategies__tags {
+	margin: 0 0 31px;
+
+	@include media-tablet {
+		margin: 0 0 50px;
+		justify-content: center;
+
+		>*:last-child {
+			margin-right: 0;
+		}
+	}
+
+	@include media-mobile {
+		margin: 0 0 34px;
+	}
+}
+
+.strategies-wrapper {
+	>* {
+		margin-bottom: 30px;
+
+		@include media-additional {
+			flex-basis: 48%;
+		}
+
+		@include media-additionalsmall {
+			flex-basis: 100%;
+			flex-direction: column;
+			margin: 0 auto;
+		}
+	}
+}
+
+// Strategy block 
+.strategy {
+	position: relative;
+	cursor: pointer;
+
+	@include media-laptop {
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	@include media-additionalsmall {
+		max-width: 333px;
+		margin: 0 auto 21px;
+	}
+}
+
 .strategy__img {
+	height: 200px;
 	min-width: 100%;
+
+	@include media-laptop {
+		object-fit: cover;
+	}
+
+	@include media-tablet {
+		height: 171px;
+	}
 }
 
 .strategy__content {
 	padding: 24px 34px 0 33px;
+
+	@include media-laptop {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+	}
+
+	@include media-additional {
+		padding: 27px 31px 0;
+	}
+
+	@include media-additionalsmall {
+		padding: 25px 29px 0;
+	}
 }
 
 .strategy__title {
 	margin: 0 0 29px;
+	flex-grow: 1;
+
+	@include media-additional {
+		margin: 0 0 31px;
+		-ms-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		-ms-line-clamp: 3;
+		-webkit-line-clamp: 3;
+		line-clamp: 3;
+		overflow: hidden;
+		-webkit-display: box;
+		display: box;
+		-webkit-box-orient: vertical;
+		box-orient: vertical;
+	}
+
+	@include media-additionalsmall {
+		margin: 0 0 31px;
+		-ms-line-clamp: 2;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+	}
+}
+
+.strategy__tags {
+	margin: 0 0 18px;
 }
