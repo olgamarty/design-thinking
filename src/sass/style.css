@@ -374,6 +374,7 @@ h4, h3, h2, h1 {
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -509,37 +510,37 @@ h5 {
 .ico-arrow {
   width: 12px;
   height: 17px;
-  background-image: url(../../img/icons/icon-arrow.svg);
+  background-image: url(../img/icons/icon-arrow.svg);
 }
 
 .ico-wave {
   width: 18px;
   height: 14px;
-  background-image: url(../../img/icons/wave.svg);
+  background-image: url(../img/icons/wave.svg);
 }
 
 .ico-heart {
   width: 17px;
   height: 15px;
-  background-image: url(../../img/icons/hart.svg);
+  background-image: url(../img/icons/hart.svg);
 }
 
 .ico-hourglass {
   width: 15px;
   height: 17px;
-  background-image: url(../../img/icons/hourglass.svg);
+  background-image: url(../img/icons/hourglass.svg);
 }
 
 .ico_phone {
   width: 13px;
   height: 13px;
-  background-image: url(../../img/icons/phone.svg);
+  background-image: url(../img/icons/phone.svg);
 }
 
 .ico_email {
   width: 11px;
   height: 8px;
-  background-image: url(../../img/icons/letter.svg);
+  background-image: url(../img/icons/letter.svg);
 }
 
 .button {
@@ -1005,7 +1006,7 @@ h5 {
 }
 
 .tools {
-  background-image: url(../../img/backgrounds/tools-bg.svg);
+  background-image: url(../img/backgrounds/tools-bg.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
   padding: 81px 0 90px;
