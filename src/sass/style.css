@@ -356,7 +356,7 @@ template {
   box-sizing: border-box;
 }
 
-.navigation__link, .footer-navigation__link, .logo-path, .link-button, .play-path {
+.navigation__link, .footer-navigation__link, .tag, .logo-path, .link-button, .play-path {
   transition: all 0.3s ease-in-out;
 }
 
@@ -666,9 +666,13 @@ h5 {
   line-height: 2.8rem;
   padding: 0 14px;
   border-radius: 90px;
+  cursor: pointer;
 }
 .tag_bordered {
   border: 1px solid #D7D7D7;
+}
+.tag_bordered:hover {
+  background-color: #FF9900;
 }
 .tag_colored {
   background-color: #F5F5F5;
@@ -676,6 +680,7 @@ h5 {
 .tag_active {
   background-color: #FF9900;
   color: #ffffff;
+  border: 1px solid #FF9900;
 }
 
 .container {
@@ -1201,6 +1206,9 @@ h5 {
 .strategy {
   position: relative;
   cursor: pointer;
+}
+.strategy_hidden {
+  display: none;
 }
 @media (max-width: 1197px) {
   .strategy {

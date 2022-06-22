@@ -72,6 +72,10 @@
 	position: relative;
 	cursor: pointer;
 
+	&_hidden {
+		display: none;
+	}
+
 	@include media-laptop {
 		display: flex;
 		flex-direction: column;
